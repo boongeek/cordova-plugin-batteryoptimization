@@ -16,16 +16,16 @@
         <engine name="cordova" version=">=3.0.0"/>
     </engines>
   
-    <js-module src="www/batteryoptimization.js" name="BatteryOptimization">
-        <clobbers target="window.plugins.toastyPlugin" />
+    <js-module src="www/batteryoptimization.js" name="device">
+        <clobbers target="window.batteryOptimization" />
     </js-module>
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="BatteryOptimization>
-                <param name="android-package" value="com.boongeek.cordova.plugin.BatteryOptimization/>
+                <param name="android-package" value="org.apache.cordova.batteryoptimization.BatteryOptimization" />
             </feature>
         </config-file>
 
-        <source-file src="src/android/BatteryOptimization.java" target-dir="src/com/batte/cordova/plugin" />
+        <source-file src="src/android/BatteryOptimization.java" target-dir="src/org/apache/cordova/batteryoptimization" />
     </platform>
 </plugin>
