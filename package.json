@@ -25,7 +25,7 @@
     }
   ],
   "author": "Oleg Kunitskyi <boongeek1970@gmail.com>",
-  "license": "MIT",
+  "license": "Apache License 2.0",
   "bugs": {
     "url": "https://github.com/boongeek/cordova-plugin-batteryoptimization/issues"
   },
