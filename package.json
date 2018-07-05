@@ -1,1 +1,33 @@
 
+{
+  "name": "cordova-plugin-batteryoptimization",
+  "version": "1.0.0",
+  "description": "An Android Cordova plugin that allows users to protect app",
+  "cordova": {
+    "id": "cordova-plugin-batteryoptimization",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boongeek/cordova-plugin-batteryoptimization.git"
+  },
+  "keywords": [
+    "Battery",
+    "BatteryOptimization",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Oleg Kunitskyi <boongeek1970@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boongeek/cordova-plugin-batteryoptimization/issues"
+  },
+  "homepage": "https://github.com/boongeek/cordova-plugin-batteryoptimization/"
+}
