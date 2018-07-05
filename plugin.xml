@@ -2,14 +2,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-batteryoptimization" version="0.0.1">
+        id="cordova-plugin-batteryoptimization" version="1.0.0">
     <name>BatteryOptimization</name>
 
     <description>An Android Cordova plugin that allows users to optimize battery.</description>
     <license>MIT</license>
 
-    <keywords>cordova,android,battery</keywords>
-    <repo>https://github.com/boongeek/cordova-plugin-batteryoptimization/Toast-PhoneGap-Plugin.git</repo>
+    <keywords>cordova,android,battery,batteryoptimization</keywords>
+    <repo>https://github.com/boongeek/cordova-plugin-batteryoptimization.git</repo>
     <issue>https://github.com/boongeek/cordova-plugin-batteryoptimization/issues</issue>
   
     <engines>
