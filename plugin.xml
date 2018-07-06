@@ -11,14 +11,11 @@
     <keywords>cordova,android,battery,batteryoptimization</keywords>
     <repo>https://github.com/boongeek/cordova-plugin-batteryoptimization.git</repo>
     <issue>https://github.com/boongeek/cordova-plugin-batteryoptimization/issues</issue>
-  
-    <engines>
-        <engine name="cordova" version=">=3.0.0"/>
-    </engines>
-  
-    <js-module src="www/batteryoptimization.js" name="plugin">
+        
+    <js-module src="www/batteryoptimization.js" name="battery">
         <clobbers target="BatteryOptimization" />
     </js-module>
+        
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="BatteryOptimization">
