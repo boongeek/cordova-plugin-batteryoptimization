@@ -1,15 +1,12 @@
-var BatteryOptimization = function() {};
+var exec = require ('cordova/exec');
+var PLUGIN_NAME = 'BatteryOptimization';
 
-/**
- * Acquire a new wake-lock (keep device awake)
- *
- * @param successCallback function to be called when the wake-lock was acquired successfully
- * @param errorCallback function to be called when there was a problem with acquiring the wake-lock
- */
-BatteryOptimization.prototype.show = function(successCallback,failureCallback) {
-  
-
-    cordova.exec(successCallback, failureCallback, 'BatteryOptimization', 'show', []);
+var BatteryOptimization = {
+echo: function(phrase, cb) {
+exec (cb, null, PLUGIN_NAME, 'echo', [phrase]);
 }
 
-module.exports = new BatteryOptimization();
+};
+
+
+module.exports = BatteryOptimization;
