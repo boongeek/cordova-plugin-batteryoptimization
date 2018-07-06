@@ -31,6 +31,11 @@ public class BatteryOptimization  extends CordovaPlugin {
   //  private static final String DURATION_LONG = "long";
 
     private static final String LOG_TAG = "Battery Optimization";
+  
+  
+  public void initialize (CordovaInterface cordova, CordovaWebView webView) {
+    super.initialize(cordova, webView);
+  }
 
     @Override
     public boolean execute(String action, JSONArray args,
