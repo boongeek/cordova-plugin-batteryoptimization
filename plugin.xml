@@ -19,7 +19,7 @@
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="BatteryOptimization">
-                <param name="android-package" value="org.apache.cordova.batteryoptimization" />
+                <param name="android-package" value="org.apache.cordova.batteryoptimization.BatteryOptimization" />
                     <param name="onload" value="true" />
             </feature>
         </config-file>
