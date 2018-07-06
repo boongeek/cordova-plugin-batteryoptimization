@@ -41,7 +41,7 @@ public class BatteryOptimization  extends CordovaPlugin {
     public boolean execute(String action, JSONArray args,
                            final CallbackContext callbackContext) {
         // Verify that the user sent a 'show' action
-        if (!action.equals("show")) {
+        if (!action.equals("echo")) {
             callbackContext.error("\"" + action + "\" is not a recognized action.");
             return false;
         } else {
